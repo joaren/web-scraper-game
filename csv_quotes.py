@@ -2,8 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from time import sleep
 from random import choice
-from csv import DictWriter  # use dict bc our data is an object
-
+from csv import DictWriter  
 base_url = "https://quotes.toscrape.com"
 
 
